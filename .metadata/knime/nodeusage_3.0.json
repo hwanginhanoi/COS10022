@@ -306,7 +306,7 @@
                 "nrfails": 0,
                 "exectime": 10269,
                 "nrcreated": 7,
-                "successor": "org.knime.base.node.meta.feature.selection.FeatureSelectionLoopStartNodeFactory#Feature Selection Loop Start (1:1)"
+                "successor": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory#String Replacer"
             },
             {
                 "id": "org.knime.base.node.rules.engine.twoports.RuleEngineFilter2PortsNodeFactory#Rule-based Row Filter (Dictionary)",
@@ -342,10 +342,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory#String Replacer",
-                "nrexecs": 12,
+                "nrexecs": 14,
                 "nrfails": 0,
-                "exectime": 2119,
-                "nrcreated": 3,
+                "exectime": 3114,
+                "nrcreated": 4,
                 "successor": "n/a"
             },
             {
@@ -362,16 +362,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 307051,
-    "workflowsOpened": 18,
+    "uptime": 3188748,
+    "workflowsOpened": 19,
     "remoteWorkflowsOpened": 1,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 14,
+    "launches": 15,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 4298723,
+    "timeSinceLastStart": 47831225,
     "crashes": 0,
     "properlyShutDown": true
 }

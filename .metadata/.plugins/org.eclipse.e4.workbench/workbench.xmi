@@ -41,7 +41,7 @@
           <tags>persp.viewSC:com.knime.workbench.hubview</tags>
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_BBazJadnEe2CPsCcN5JCqA" selectedElement="_BBazJqdnEe2CPsCcN5JCqA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_BBazJadnEe2CPsCcN5JCqA" selectedElement="_BBazLqdnEe2CPsCcN5JCqA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_BBazJqdnEe2CPsCcN5JCqA" containerData="1743" selectedElement="_BBazJ6dnEe2CPsCcN5JCqA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_BBazJ6dnEe2CPsCcN5JCqA" containerData="3000" selectedElement="_BBazKqdnEe2CPsCcN5JCqA">
                 <children xsi:type="basic:PartStack" xmi:id="_BBazKKdnEe2CPsCcN5JCqA" elementId="org.knime.workbench.explorer.viewMStack" containerData="5000" selectedElement="_BBazKadnEe2CPsCcN5JCqA">
@@ -51,7 +51,6 @@
                   </children>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_BBazKqdnEe2CPsCcN5JCqA" elementId="org.knime.workbench.repository.view.RepositoryViewMStack" containerData="5000" selectedElement="_BBazK6dnEe2CPsCcN5JCqA">
-                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_BBazK6dnEe2CPsCcN5JCqA" elementId="org.knime.workbench.repository.view.RepositoryView" ref="_BBaz_qdnEe2CPsCcN5JCqA" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:KNIME Views</tags>
@@ -130,12 +129,14 @@
       <children xsi:type="basic:PartStack" xmi:id="_BBazzKdnEe2CPsCcN5JCqA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_uuz3sLNJEe2ahs0sUodc7Q">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_uuz3sLNJEe2ahs0sUodc7Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="3: Assignment 2" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;3: Assignment 2&quot; title=&quot;3: Assignment 2&quot; tooltip=&quot;3: Assignment 2&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Assignment%202/Assignment%202/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>activeOnClose</tags>
+          <tags>active</tags>
         </children>
       </children>
     </sharedElements>
@@ -159,7 +160,6 @@
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
       <tags>activeOnClose</tags>
-      <tags>active</tags>
       <menus xmi:id="_BBaz_6dnEe2CPsCcN5JCqA" elementId="org.knime.workbench.repository.view.RepositoryView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -619,7 +619,7 @@
     <bindings xmi:id="_BBa1PKdnEe2CPsCcN5JCqA" keySequence="COMMAND+G" command="_BBbadqdnEe2CPsCcN5JCqA"/>
   </bindingTables>
   <bindingTables xmi:id="_BBa1PadnEe2CPsCcN5JCqA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_BBa1X6dnEe2CPsCcN5JCqA">
-    <bindings xmi:id="_45BYALWxEe2d05x3Ec22QQ" keySequence="M1+W" command="_BBbbz6dnEe2CPsCcN5JCqA"/>
+    <bindings xmi:id="_COAGYLXeEe2AwK2igNzvrg" keySequence="M1+W" command="_BBbbz6dnEe2CPsCcN5JCqA"/>
   </bindingTables>
   <bindingTables xmi:id="_BBa1P6dnEe2CPsCcN5JCqA" bindingContext="_BBa1YqdnEe2CPsCcN5JCqA"/>
   <bindingTables xmi:id="_BBa1QKdnEe2CPsCcN5JCqA" bindingContext="_BBa1Y6dnEe2CPsCcN5JCqA"/>
