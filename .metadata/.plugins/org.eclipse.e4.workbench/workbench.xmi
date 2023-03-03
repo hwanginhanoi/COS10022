@@ -619,7 +619,7 @@
     <bindings xmi:id="_BBa1PKdnEe2CPsCcN5JCqA" keySequence="COMMAND+G" command="_BBbadqdnEe2CPsCcN5JCqA"/>
   </bindingTables>
   <bindingTables xmi:id="_BBa1PadnEe2CPsCcN5JCqA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_BBa1X6dnEe2CPsCcN5JCqA">
-    <bindings xmi:id="_COAGYLXeEe2AwK2igNzvrg" keySequence="M1+W" command="_BBbbz6dnEe2CPsCcN5JCqA"/>
+    <bindings xmi:id="_D4sl0bjMEe2qoayPGKPgGg" keySequence="M1+W" command="_BBbbz6dnEe2CPsCcN5JCqA"/>
   </bindingTables>
   <bindingTables xmi:id="_BBa1P6dnEe2CPsCcN5JCqA" bindingContext="_BBa1YqdnEe2CPsCcN5JCqA"/>
   <bindingTables xmi:id="_BBa1QKdnEe2CPsCcN5JCqA" bindingContext="_BBa1Y6dnEe2CPsCcN5JCqA"/>

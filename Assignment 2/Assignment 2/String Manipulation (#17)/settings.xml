@@ -6,12 +6,12 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="strip(substr($Credit_History_Age$, 0, 2))%%00010"/>
+        <entry key="expression" type="xstring" value="toInt(strip(substr($Credit_History_Age$, 0, 2)))%%00010"/>
         <entry key="replaced_column" type="xstring" value="Years"/>
         <entry key="append_column" type="xboolean" value="false"/>
         <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
         <entry key="insert_missing_as_null" type="xboolean" value="false"/>
-        <entry key="return_type" type="xstring" value="java.lang.String"/>
+        <entry key="return_type" type="xstring" value="java.lang.Integer"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -40,6 +40,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5ea2b65d-8f58-4b87-af75-0d676c3df428"/>
+        <entry key="file_store_id" type="xstring" value="a5bd4905-fcbb-430b-a96f-36c5331d882b"/>
     </config>
 </config>

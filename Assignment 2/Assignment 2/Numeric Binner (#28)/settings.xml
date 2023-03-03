@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="Changed_Credit_Limit">
+            <config key="Bin1_0">
+                <entry key="bin_name" type="xstring" value="Bin1"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="-Infinity"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="-3.0"/>
+            </config>
+            <config key="Bin6_1">
+                <entry key="bin_name" type="xstring" value="Bin6"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="-3.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="0.0"/>
+            </config>
+            <config key="Bin5_2">
+                <entry key="bin_name" type="xstring" value="Bin5"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="0.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="3.0"/>
+            </config>
+            <config key="Bin4_3">
+                <entry key="bin_name" type="xstring" value="Bin4"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="3.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="6.0"/>
+            </config>
+            <config key="Bin3_4">
+                <entry key="bin_name" type="xstring" value="Bin3"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="6.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="7.5"/>
+            </config>
+            <config key="Bin2_5">
+                <entry key="bin_name" type="xstring" value="Bin2"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="7.5"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="Infinity"/>
+            </config>
+        </config>
+        <entry key="Changed_Credit_Limit_is_appended" type="xstring" value="Changed_Credit_Limit_binned"/>
+        <config key="binned_columns">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Changed_Credit_Limit"/>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.binner.BinnerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Numeric Binner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Numeric Binner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 90928, Cols: 29"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="88707923-e095-425f-a8c6-82dada9c38ed"/>
+    </config>
+</config>

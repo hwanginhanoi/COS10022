@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="16"/>
+                <entry key="0" type="xstring" value="Num_Credit_Card"/>
+                <entry key="1" type="xstring" value="Num_of_Loan"/>
+                <entry key="2" type="xstring" value="Type_of_Loan"/>
+                <entry key="3" type="xstring" value="Delay_from_due_date"/>
+                <entry key="4" type="xstring" value="Num_of_Delayed_Payment"/>
+                <entry key="5" type="xstring" value="Num_Credit_Inquiries"/>
+                <entry key="6" type="xstring" value="Credit_Mix"/>
+                <entry key="7" type="xstring" value="Outstanding_Debt"/>
+                <entry key="8" type="xstring" value="Credit_Utilization_Ratio"/>
+                <entry key="9" type="xstring" value="Payment_of_Min_Amount"/>
+                <entry key="10" type="xstring" value="Total_EMI_per_month"/>
+                <entry key="11" type="xstring" value="Payment_Behaviour"/>
+                <entry key="12" type="xstring" value="Monthly_Balance"/>
+                <entry key="13" type="xstring" value="Credit_Score"/>
+                <entry key="14" type="xstring" value="Total_CHA"/>
+                <entry key="15" type="xstring" value="Changed_Credit_Limit_binned"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="13"/>
+                <entry key="0" type="xstring" value="Month"/>
+                <entry key="1" type="xstring" value="Name"/>
+                <entry key="2" type="xstring" value="Age"/>
+                <entry key="3" type="xstring" value="Occupation"/>
+                <entry key="4" type="xstring" value="Annual_Income"/>
+                <entry key="5" type="xstring" value="Monthly_Inhand_Salary"/>
+                <entry key="6" type="xstring" value="Num_Bank_Accounts"/>
+                <entry key="7" type="xstring" value="Interest_Rate"/>
+                <entry key="8" type="xstring" value="Changed_Credit_Limit"/>
+                <entry key="9" type="xstring" value="Credit_History_Age"/>
+                <entry key="10" type="xstring" value="Amount_invested_monthly"/>
+                <entry key="11" type="xstring" value="Years"/>
+                <entry key="12" type="xstring" value="Months"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 90928, Cols: 16"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="39f313a4-a3a3-424c-9374-af3412a7cdc4"/>
+    </config>
+</config>
