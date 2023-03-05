@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="hwang"/>
         <entry key="authored-when" type="xstring" value="2023-02-23 15:14:36 +0700"/>
         <entry key="lastEdited-by" type="xstring" value="hwang"/>
-        <entry key="lastEdited-when" type="xstring" value="2023-03-05 00:29:48 +0700"/>
+        <entry key="lastEdited-when" type="xstring" value="2023-03-05 21:48:38 +0700"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -790,8 +790,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="4104"/>
-                    <entry key="1" type="xint" value="237"/>
+                    <entry key="0" type="xint" value="4084"/>
+                    <entry key="1" type="xint" value="217"/>
                     <entry key="2" type="xint" value="89"/>
                     <entry key="3" type="xint" value="89"/>
                 </config>

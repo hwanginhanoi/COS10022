@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="append_column" type="xboolean" value="true"/>
-        <entry key="replaced_column" type="xstring" value="Num_of_Loan"/>
         <entry key="expression" type="xstring" value="if($Num_of_Loan$ &lt; 0, 0, $Num_of_Loan$)"/>
+        <entry key="replaced_column" type="xstring" value="Num_of_Loan"/>
+        <entry key="append_column" type="xboolean" value="true"/>
         <entry key="convert_to_int" type="xboolean" value="true"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -38,6 +38,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="feec6f37-ccdd-474f-b740-49456d273615"/>
+        <entry key="file_store_id" type="xstring" value="9e3f0b9b-624a-4ff4-a4e8-d677bee40a6a"/>
     </config>
 </config>

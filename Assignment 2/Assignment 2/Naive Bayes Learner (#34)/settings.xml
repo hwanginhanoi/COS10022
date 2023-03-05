@@ -11,6 +11,21 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="classifyColumn" type="xstring" value="Credit_Score"/>
+        <config key="skipMissingVals_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="skipMissingVals" type="xboolean" value="false"/>
+        <config key="maxNoOfNomVals_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="maxNoOfNomVals" type="xint" value="600"/>
+        <config key="compatiblePMML_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="compatiblePMML" type="xboolean" value="false"/>
         <config key="threshold_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -26,21 +41,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="minSdThreshold" type="xdouble" value="0.0"/>
-        <config key="maxNoOfNomVals_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="maxNoOfNomVals" type="xint" value="600"/>
-        <config key="skipMissingVals_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="skipMissingVals" type="xboolean" value="false"/>
-        <config key="compatiblePMML_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="compatiblePMML" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
