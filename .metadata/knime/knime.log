@@ -37945,3 +37945,13 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-03-08 09:07:56,578 : WARN  : KNIME-Worker-3-Missing Value 3:40 :  : Node : Missing Value : 3:40 : Column "Monthly_Inhand_Salary" still contains missing values.
+Column "Num_of_Delayed_Payment" still contains missing values.
+Column "Years" still contains missing values.
+Column "Months" still contains missing values.
+Column "Name" still contains missing values.
+Column "Num_Credit_Inquiries" still contains missing values.
+Column "Type_of_Loan" still contains missing values.
+Column "Monthly_Balance" still contains missing values.
+2023-03-08 09:07:56,964 : WARN  : KNIME-Worker-2-String Manipulation 3:22 :  : ColumnCalculator : String Manipulation : 3:22 : Row "Row197" contains missing value in column "Monthly_Balance" - returning missing (omitting further warnings)
+2023-03-08 09:07:57,797 : WARN  : KNIME-Worker-1-Missing Value 3:23 :  : Node : Missing Value : 3:23 : The current settings use missing value handling methods that cannot be represented in PMML 4.2

@@ -314,22 +314,22 @@
                     <entry key="classValue" type="xstring" value="Poor"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="19767"/>
-                    <entry key="mean" type="xdouble" value="170.65295694844787"/>
-                    <entry key="sd" type="xdouble" value="87.95728639357297"/>
+                    <entry key="mean" type="xdouble" value="154.68928011331994"/>
+                    <entry key="sd" type="xdouble" value="96.55159784889486"/>
                 </config>
                 <config key="classValueData_1">
                     <entry key="classValue" type="xstring" value="Standard"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="36367"/>
-                    <entry key="mean" type="xdouble" value="227.82393378612338"/>
-                    <entry key="sd" type="xdouble" value="99.24440236597657"/>
+                    <entry key="mean" type="xdouble" value="207.65218467291754"/>
+                    <entry key="sd" type="xdouble" value="115.03868795898954"/>
                 </config>
                 <config key="classValueData_2">
                     <entry key="classValue" type="xstring" value="Good"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="12062"/>
-                    <entry key="mean" type="xdouble" value="283.8826894379037"/>
-                    <entry key="sd" type="xdouble" value="74.16863601778364"/>
+                    <entry key="mean" type="xdouble" value="259.71522135632773"/>
+                    <entry key="sd" type="xdouble" value="106.8568377841373"/>
                 </config>
             </config>
         </config>
