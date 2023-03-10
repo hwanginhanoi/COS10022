@@ -118,17 +118,17 @@
             },
             {
                 "id": "org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4#Logistic Regression Learner",
-                "nrexecs": 20,
+                "nrexecs": 22,
                 "nrfails": 0,
-                "exectime": 20615,
+                "exectime": 22924,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory#Logistic Regression Predictor"
             },
             {
                 "id": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory#Logistic Regression Predictor",
-                "nrexecs": 20,
+                "nrexecs": 22,
                 "nrfails": 0,
-                "exectime": 219,
+                "exectime": 279,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer"
             },
@@ -174,9 +174,9 @@
             },
             {
                 "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer",
-                "nrexecs": 51,
+                "nrexecs": 53,
                 "nrfails": 0,
-                "exectime": 673,
+                "exectime": 678,
                 "nrcreated": 6,
                 "successor": "n/a"
             },
@@ -418,16 +418,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 285993,
-    "workflowsOpened": 30,
+    "uptime": 3290695,
+    "workflowsOpened": 33,
     "remoteWorkflowsOpened": 3,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 23,
+    "launches": 24,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 6577852,
+    "timeSinceLastStart": 78976682,
     "crashes": 1,
     "properlyShutDown": true
 }
