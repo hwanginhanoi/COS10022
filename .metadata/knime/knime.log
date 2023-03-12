@@ -37959,3 +37959,17 @@ Column "Monthly_Balance" still contains missing values.
 The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
 2023-03-09 15:19:38,954 : WARN  : KNIME-Worker-9-Logistic Regression Learner 4:13 :  : Node : Logistic Regression Learner : 4:13 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
 The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2023-03-12 21:13:17,779 : WARN  : main :  : Node : Linear Correlation : 3:41 : Auto configuration: Using all suitable columns (in total 9)
+2023-03-12 21:13:19,063 : WARN  : KNIME-Worker-8-Linear Correlation 3:41 :  : NodeContainer : Linear Correlation : 3:41 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:3296)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:659)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:171)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-03-12 21:14:14,331 : WARN  : main :  : Node : Rank Correlation : 3:41 : Auto configuration: Using all suitable columns (in total 29)
