@@ -54,9 +54,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory#Linear Correlation",
-                "nrexecs": 15,
-                "nrfails": 0,
-                "exectime": 109,
+                "nrexecs": 16,
+                "nrfails": 1,
+                "exectime": 1149,
                 "nrcreated": 5,
                 "successor": "n/a"
             },
@@ -378,7 +378,7 @@
                 "nrfails": 0,
                 "exectime": 721,
                 "nrcreated": 1,
-                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+                "successor": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory#Linear Correlation"
             },
             {
                 "id": "org.knime.base.node.mine.bayes.naivebayes.learner3.NaiveBayesLearnerNodeFactory4#Naive Bayes Learner",
@@ -411,6 +411,14 @@
                 "exectime": 34619,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer"
+            },
+            {
+                "id": "org.knime.base.node.stats.correlation.rank2.RankCorrelationCompute2NodeFactory#Rank Correlation",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 1612,
+                "nrcreated": 1,
+                "successor": "n/a"
             }
         ],
         "metaNodes": {
@@ -418,7 +426,7 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 36531,
+    "uptime": 104830,
     "workflowsOpened": 35,
     "remoteWorkflowsOpened": 3,
     "columnarStorageWorkflowsOpened": 0,
@@ -427,7 +435,7 @@
     "webUIPerspectiveSwitches": 0,
     "launches": 25,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 913297,
+    "timeSinceLastStart": 2620769,
     "crashes": 1,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
