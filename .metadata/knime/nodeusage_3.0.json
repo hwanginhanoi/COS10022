@@ -278,9 +278,9 @@
             },
             {
                 "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
-                "nrexecs": 45,
+                "nrexecs": 46,
                 "nrfails": 0,
-                "exectime": 5130,
+                "exectime": 5761,
                 "nrcreated": 8,
                 "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation"
             },
@@ -426,16 +426,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 104830,
-    "workflowsOpened": 35,
+    "uptime": 82158,
+    "workflowsOpened": 36,
     "remoteWorkflowsOpened": 3,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 25,
+    "launches": 26,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 2620769,
+    "timeSinceLastStart": 2136118,
     "crashes": 1,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }
