@@ -65,6 +65,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="1 column(s) were ignored due to missing domain information: [&quot;Name&quot;] -- change the node configuration or use a Domain Calculator node to fix it"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2"/>
     <entry key="node-name" type="xstring" value="Random Forest Learner"/>
     <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
@@ -84,21 +88,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 68196, Cols: 15"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 62019, Cols: 19"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 11, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="100 classifiers on 8 attributes"/>
+            <entry key="port_object_summary" type="xstring" value="100 classifiers on 11 attributes"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>

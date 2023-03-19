@@ -123,7 +123,7 @@
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Null"/>
+                        <entry key="StringCell" type="xstring" value="_______"/>
                     </config>
                 </config>
                 <config key="2">

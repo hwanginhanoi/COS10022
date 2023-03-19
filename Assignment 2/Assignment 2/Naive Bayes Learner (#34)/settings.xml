@@ -44,6 +44,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="The following attributes are skipped: Name/Too many values"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.bayes.naivebayes.learner3.NaiveBayesLearnerNodeFactory4"/>
     <entry key="node-name" type="xstring" value="Naive Bayes Learner"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -72,7 +76,7 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 57, Cols: 7"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 108, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
