@@ -14,15 +14,15 @@
                 <entry key="right_open" type="xboolean" value="true"/>
                 <entry key="right_value" type="xdouble" value="-3.0"/>
             </config>
-            <config key="Bin6_1">
-                <entry key="bin_name" type="xstring" value="Bin6"/>
+            <config key="Bin2_1">
+                <entry key="bin_name" type="xstring" value="Bin2"/>
                 <entry key="left_open" type="xboolean" value="false"/>
                 <entry key="left_value" type="xdouble" value="-3.0"/>
                 <entry key="right_open" type="xboolean" value="false"/>
                 <entry key="right_value" type="xdouble" value="0.0"/>
             </config>
-            <config key="Bin5_2">
-                <entry key="bin_name" type="xstring" value="Bin5"/>
+            <config key="Bin3_2">
+                <entry key="bin_name" type="xstring" value="Bin3"/>
                 <entry key="left_open" type="xboolean" value="true"/>
                 <entry key="left_value" type="xdouble" value="0.0"/>
                 <entry key="right_open" type="xboolean" value="false"/>
@@ -35,15 +35,15 @@
                 <entry key="right_open" type="xboolean" value="false"/>
                 <entry key="right_value" type="xdouble" value="6.0"/>
             </config>
-            <config key="Bin3_4">
-                <entry key="bin_name" type="xstring" value="Bin3"/>
+            <config key="Bin5_4">
+                <entry key="bin_name" type="xstring" value="Bin5"/>
                 <entry key="left_open" type="xboolean" value="true"/>
                 <entry key="left_value" type="xdouble" value="6.0"/>
                 <entry key="right_open" type="xboolean" value="false"/>
                 <entry key="right_value" type="xdouble" value="7.5"/>
             </config>
-            <config key="Bin2_5">
-                <entry key="bin_name" type="xstring" value="Bin2"/>
+            <config key="Bin6_5">
+                <entry key="bin_name" type="xstring" value="Bin6"/>
                 <entry key="left_open" type="xboolean" value="true"/>
                 <entry key="left_value" type="xdouble" value="7.5"/>
                 <entry key="right_open" type="xboolean" value="true"/>
@@ -97,6 +97,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e5063a34-aec4-4aac-aa14-acd9bd59bf70"/>
+        <entry key="file_store_id" type="xstring" value="3cc2e991-3991-4819-bd1c-00fe3c045c4f"/>
     </config>
 </config>
