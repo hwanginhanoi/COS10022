@@ -632,7 +632,7 @@
     <bindings xmi:id="_Z-EpKbt1Ee2tUOkiTNkHSg" keySequence="COMMAND+G" command="_Z-Equ7t1Ee2tUOkiTNkHSg"/>
   </bindingTables>
   <bindingTables xmi:id="_Z-EpKrt1Ee2tUOkiTNkHSg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_Z-EpTLt1Ee2tUOkiTNkHSg">
-    <bindings xmi:id="_QNj2YMhGEe2bbY19Vmz2Cg" keySequence="M1+W" command="_Z-EsFLt1Ee2tUOkiTNkHSg"/>
+    <bindings xmi:id="_v1DFEciUEe2w-JzrEjCW-Q" keySequence="M1+W" command="_Z-EsFLt1Ee2tUOkiTNkHSg"/>
   </bindingTables>
   <bindingTables xmi:id="_Z-EpLLt1Ee2tUOkiTNkHSg" bindingContext="_Z-EpT7t1Ee2tUOkiTNkHSg"/>
   <bindingTables xmi:id="_Z-EpLbt1Ee2tUOkiTNkHSg" bindingContext="_Z-EpULt1Ee2tUOkiTNkHSg"/>
