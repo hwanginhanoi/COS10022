@@ -9,40 +9,40 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="25"/>
+                <entry key="array-size" type="xint" value="24"/>
                 <entry key="0" type="xstring" value="Month"/>
-                <entry key="1" type="xstring" value="Name"/>
-                <entry key="2" type="xstring" value="Age"/>
-                <entry key="3" type="xstring" value="Occupation"/>
-                <entry key="4" type="xstring" value="Annual_Income"/>
-                <entry key="5" type="xstring" value="Monthly_Inhand_Salary"/>
-                <entry key="6" type="xstring" value="Num_Bank_Accounts"/>
-                <entry key="7" type="xstring" value="Num_Credit_Card"/>
-                <entry key="8" type="xstring" value="Interest_Rate"/>
-                <entry key="9" type="xstring" value="Num_of_Loan"/>
-                <entry key="10" type="xstring" value="Delay_from_due_date"/>
-                <entry key="11" type="xstring" value="Num_of_Delayed_Payment"/>
-                <entry key="12" type="xstring" value="Num_Credit_Inquiries"/>
-                <entry key="13" type="xstring" value="Credit_Mix"/>
-                <entry key="14" type="xstring" value="Outstanding_Debt"/>
-                <entry key="15" type="xstring" value="Credit_Utilization_Ratio"/>
-                <entry key="16" type="xstring" value="Payment_of_Min_Amount"/>
-                <entry key="17" type="xstring" value="Total_EMI_per_month"/>
-                <entry key="18" type="xstring" value="Amount_invested_monthly"/>
-                <entry key="19" type="xstring" value="Payment_Behaviour"/>
-                <entry key="20" type="xstring" value="Monthly_Balance"/>
-                <entry key="21" type="xstring" value="Credit_Score"/>
-                <entry key="22" type="xstring" value="Total_CHA"/>
-                <entry key="23" type="xstring" value="Type_of_Loan_new"/>
-                <entry key="24" type="xstring" value="Changed_Credit_Limit_binned"/>
+                <entry key="1" type="xstring" value="Age"/>
+                <entry key="2" type="xstring" value="Occupation"/>
+                <entry key="3" type="xstring" value="Annual_Income"/>
+                <entry key="4" type="xstring" value="Monthly_Inhand_Salary"/>
+                <entry key="5" type="xstring" value="Num_Bank_Accounts"/>
+                <entry key="6" type="xstring" value="Num_Credit_Card"/>
+                <entry key="7" type="xstring" value="Interest_Rate"/>
+                <entry key="8" type="xstring" value="Num_of_Loan"/>
+                <entry key="9" type="xstring" value="Delay_from_due_date"/>
+                <entry key="10" type="xstring" value="Num_of_Delayed_Payment"/>
+                <entry key="11" type="xstring" value="Num_Credit_Inquiries"/>
+                <entry key="12" type="xstring" value="Credit_Mix"/>
+                <entry key="13" type="xstring" value="Outstanding_Debt"/>
+                <entry key="14" type="xstring" value="Credit_Utilization_Ratio"/>
+                <entry key="15" type="xstring" value="Payment_of_Min_Amount"/>
+                <entry key="16" type="xstring" value="Total_EMI_per_month"/>
+                <entry key="17" type="xstring" value="Amount_invested_monthly"/>
+                <entry key="18" type="xstring" value="Payment_Behaviour"/>
+                <entry key="19" type="xstring" value="Monthly_Balance"/>
+                <entry key="20" type="xstring" value="Credit_Score"/>
+                <entry key="21" type="xstring" value="Total_CHA"/>
+                <entry key="22" type="xstring" value="Type_of_Loan_new"/>
+                <entry key="23" type="xstring" value="Changed_Credit_Limit_binned"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="5"/>
-                <entry key="0" type="xstring" value="Type_of_Loan"/>
-                <entry key="1" type="xstring" value="Changed_Credit_Limit"/>
-                <entry key="2" type="xstring" value="Credit_History_Age"/>
-                <entry key="3" type="xstring" value="Years"/>
-                <entry key="4" type="xstring" value="Months"/>
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="Name"/>
+                <entry key="1" type="xstring" value="Type_of_Loan"/>
+                <entry key="2" type="xstring" value="Changed_Credit_Limit"/>
+                <entry key="3" type="xstring" value="Credit_History_Age"/>
+                <entry key="4" type="xstring" value="Years"/>
+                <entry key="5" type="xstring" value="Months"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -64,7 +64,7 @@
         </config>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Node 27"/>
+        <entry key="text" type="xstring" value="Node 25"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
         <entry key="x-coordinate" type="xint" value="3548"/>
         <entry key="y-coordinate" type="xint" value="339"/>
@@ -98,12 +98,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 82692, Cols: 25"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 90928, Cols: 24"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6795f935-252d-4bd5-b8bd-a40870b11072"/>
+        <entry key="file_store_id" type="xstring" value="ed7e79da-c40b-4ea5-890d-1c4238d684c9"/>
     </config>
 </config>
