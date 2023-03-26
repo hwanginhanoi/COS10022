@@ -18,7 +18,7 @@
                 "nrfails": 0,
                 "exectime": 838,
                 "nrcreated": 6,
-                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+                "successor": "org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.FileReaderNodeFactory#File Reader",
@@ -206,10 +206,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter",
-                "nrexecs": 6,
+                "nrexecs": 7,
                 "nrfails": 0,
-                "exectime": 737,
-                "nrcreated": 4,
+                "exectime": 1307,
+                "nrcreated": 5,
                 "successor": "n/a"
             },
             {
@@ -498,16 +498,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 1288325,
-    "workflowsOpened": 52,
+    "uptime": 637267,
+    "workflowsOpened": 54,
     "remoteWorkflowsOpened": 3,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 37,
+    "launches": 38,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 47668052,
+    "timeSinceLastStart": 24216165,
     "crashes": 1,
     "properlyShutDown": true
 }
