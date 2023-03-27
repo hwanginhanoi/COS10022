@@ -8,10 +8,10 @@
         <entry key="authored-by" type="xstring" value="hwang"/>
         <entry key="authored-when" type="xstring" value="2023-02-23 15:14:36 +0700"/>
         <entry key="lastEdited-by" type="xstring" value="hwang"/>
-        <entry key="lastEdited-when" type="xstring" value="2023-03-24 23:19:10 +0700"/>
+        <entry key="lastEdited-when" type="xstring" value="2023-03-26 20:26:34 +0700"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">
@@ -813,22 +813,6 @@
                 </config>
             </config>
         </config>
-        <config key="node_43">
-            <entry key="id" type="xint" value="43"/>
-            <entry key="node_settings_file" type="xstring" value="CSV Reader (#43)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="3644"/>
-                    <entry key="1" type="xint" value="37"/>
-                    <entry key="2" type="xint" value="69"/>
-                    <entry key="3" type="xint" value="76"/>
-                </config>
-            </config>
-        </config>
     </config>
     <config key="connections">
         <config key="connection_0">
@@ -1083,7 +1067,7 @@
         </config>
         <config key="connection_25">
             <entry key="sourceID" type="xint" value="33"/>
-            <entry key="destID" type="xint" value="38"/>
+            <entry key="destID" type="xint" value="35"/>
             <entry key="sourcePort" type="xint" value="2"/>
             <entry key="destPort" type="xint" value="2"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1093,7 +1077,7 @@
         </config>
         <config key="connection_26">
             <entry key="sourceID" type="xint" value="33"/>
-            <entry key="destID" type="xint" value="37"/>
+            <entry key="destID" type="xint" value="34"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1103,9 +1087,9 @@
         </config>
         <config key="connection_27">
             <entry key="sourceID" type="xint" value="33"/>
-            <entry key="destID" type="xint" value="35"/>
-            <entry key="sourcePort" type="xint" value="2"/>
-            <entry key="destPort" type="xint" value="2"/>
+            <entry key="destID" type="xint" value="37"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
             <config key="ui_settings">
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
@@ -1113,9 +1097,9 @@
         </config>
         <config key="connection_28">
             <entry key="sourceID" type="xint" value="33"/>
-            <entry key="destID" type="xint" value="34"/>
-            <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="1"/>
+            <entry key="destID" type="xint" value="38"/>
+            <entry key="sourcePort" type="xint" value="2"/>
+            <entry key="destPort" type="xint" value="2"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
             <config key="ui_settings">
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>

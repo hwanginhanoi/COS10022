@@ -253,7 +253,7 @@
                     <entry key="0" type="xstring" value="Standard"/>
                     <entry key="1" type="xstring" value="Bad"/>
                     <entry key="2" type="xstring" value="Good"/>
-                    <entry key="3" type="xstring" value="Unknown"/>
+                    <entry key="3" type="xstring" value="Unknow"/>
                 </config>
                 <config key="classValueData_0">
                     <entry key="classValue" type="xstring" value="Standard"/>
@@ -261,15 +261,15 @@
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <config key="attributeValues">
                         <entry key="array-size" type="xint" value="4"/>
-                        <entry key="0" type="xstring" value="Unknown"/>
-                        <entry key="1" type="xstring" value="Bad"/>
+                        <entry key="0" type="xstring" value="Bad"/>
+                        <entry key="1" type="xstring" value="Unknow"/>
                         <entry key="2" type="xstring" value="Standard"/>
                         <entry key="3" type="xstring" value="Good"/>
                     </config>
                     <config key="attributeCounter">
                         <entry key="array-size" type="xint" value="4"/>
-                        <entry key="0" type="xlong" value="7303"/>
-                        <entry key="1" type="xlong" value="5008"/>
+                        <entry key="0" type="xlong" value="5008"/>
+                        <entry key="1" type="xlong" value="7303"/>
                         <entry key="2" type="xlong" value="18188"/>
                         <entry key="3" type="xlong" value="5868"/>
                     </config>
@@ -281,7 +281,7 @@
                     <config key="attributeValues">
                         <entry key="array-size" type="xint" value="4"/>
                         <entry key="0" type="xstring" value="Bad"/>
-                        <entry key="1" type="xstring" value="Unknown"/>
+                        <entry key="1" type="xstring" value="Unknow"/>
                         <entry key="2" type="xstring" value="Standard"/>
                         <entry key="3" type="xstring" value="Good"/>
                     </config>
@@ -299,15 +299,15 @@
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <config key="attributeValues">
                         <entry key="array-size" type="xint" value="4"/>
-                        <entry key="0" type="xstring" value="Unknown"/>
-                        <entry key="1" type="xstring" value="Bad"/>
+                        <entry key="0" type="xstring" value="Bad"/>
+                        <entry key="1" type="xstring" value="Unknow"/>
                         <entry key="2" type="xstring" value="Standard"/>
                         <entry key="3" type="xstring" value="Good"/>
                     </config>
                     <config key="attributeCounter">
                         <entry key="array-size" type="xint" value="4"/>
-                        <entry key="0" type="xlong" value="2444"/>
-                        <entry key="1" type="xlong" value="188"/>
+                        <entry key="0" type="xlong" value="188"/>
+                        <entry key="1" type="xlong" value="2444"/>
                         <entry key="2" type="xlong" value="1413"/>
                         <entry key="3" type="xlong" value="8017"/>
                     </config>
